@@ -1,0 +1,7 @@
+export const OrderStatus ={
+
+    NEW:"NEW",
+  COMPLETED:"COMPLETED",
+  CANCELED:"CANCELED",
+  IN_PROGRESS:"IN_PROGRESS"
+}
