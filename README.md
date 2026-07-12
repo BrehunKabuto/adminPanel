@@ -129,3 +129,10 @@ pnpm run dev
 | Get | /chat | get chat page |
 
 ---
+## Live Demo
+
+🔗 [admin-panel-lake-two.vercel.app](https://admin-panel-lake-two.vercel.app)
+
+**Demo credentials:**
+- Email: `testadmin123@gmail.com`
+- Password: `ExamplePassword`
