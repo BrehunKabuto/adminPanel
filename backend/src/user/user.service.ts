@@ -2,8 +2,9 @@ import { ConflictException, Injectable, InternalServerErrorException } from '@ne
 import { CreateUserDto } from './dto/userCreate.dto';
 import { PrismaService } from '@/prisma/prisma.service';
 import * as argon2  from "argon2";
-import { ROLE } from '@prisma/client';
+
 import { ChatService } from '@/chat/chat.service';
+import { ROLE } from 'generated/prisma/enums';
 
 
 @Injectable()

@@ -1,4 +1,4 @@
-import { ROLE } from "@prisma/client"
+import { ROLE } from "generated/prisma/enums"
 
 export type User ={
 
