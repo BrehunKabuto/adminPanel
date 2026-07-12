@@ -1,7 +1,6 @@
 import axios, { AxiosError } from "axios";
 import { tokenService } from "../lib/tokenService";
 import { useRotateTokenStore } from "../../features/rotateToken/model/RotateToken.store";
-import {type InternalAxiosRequestConfig } from "axios";
 
 const ClientOptions = {
     baseURL: import.meta.env.VITE_API_URL,

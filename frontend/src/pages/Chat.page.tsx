@@ -1,4 +1,4 @@
-import { Chat } from "../features/ai/ui/chat" 
+import { Chat } from "../features/ai/ui/Chat"
 
 export default function ChatPage(){
 

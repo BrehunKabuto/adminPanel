@@ -45,7 +45,7 @@ export const CreateOrderForm = () => {
             </div>
             <div className="space-y-4" >
             <p>Items</p>
-           {items.map((item, index) => (
+           {items.map((_, index) => (
                <CreateOrderItem key={index} index={index} errors={errors} register={register}/>
             ))}
             <div className="flex justify-center">
