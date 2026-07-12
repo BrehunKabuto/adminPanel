@@ -1,5 +1,5 @@
 import type { UserDto } from "../../api/user.shema"
-import List from "../../../../assets/list.svg?react"
+import List from "../../../../assets/List.svg?react"
 import Trash from "../../../../assets/Trash.svg?react"
 import { useNavigate } from "react-router-dom"
 
