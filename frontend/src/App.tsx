@@ -10,6 +10,7 @@ import CreateOrderPage from "./pages/CreateOrder.page";
 import CreateUserPage from "./pages/CreateUser.page";
 import ChatPage from "./pages/Chat.page";
 import ManagerListPage from "./pages/ManagerList.page";
+import { HomePage } from "./pages/Home.page";
 
 export default function App() {
 
@@ -23,6 +24,7 @@ export default function App() {
     return (
        
       <Routes>
+        <Route path="/" element={<HomePage/>}/>
         <Route path="auth/login" element={<LoginFormPage/>}/>
         <Route  element={<Layout/>}>
           <Route path="dashboard" element={<DashbordPage/>} />
