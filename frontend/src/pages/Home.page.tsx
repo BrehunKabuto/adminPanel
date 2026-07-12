@@ -18,7 +18,7 @@ export const HomePage = () => {
     }
   }
   else{
-    <Navigate to='/auth/login' />
+   return <Navigate to='/auth/login' />
   }
 
 }
